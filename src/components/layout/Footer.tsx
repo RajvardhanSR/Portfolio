@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 text-xs">
           <div className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10 text-neutral-300 font-mono text-[11px]">
             <Terminal className="w-3 h-3 text-sky-400" />
-            <span>AWS AI Practitioner (In Progress)</span>
+            <span className="text-sky-300">AWS Certified AI Practitioner</span>
           </div>
 
           <button

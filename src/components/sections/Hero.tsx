@@ -71,7 +71,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
             <span>CGPA: 7.14</span>
           </div>
           <span className="text-neutral-700">|</span>
-          <span className="text-neutral-400">AWS AI Practitioner (In Progress)</span>
+          <span className="text-sky-300 font-medium">AWS Certified AI Practitioner</span>
         </div>
 
         <a

@@ -6,7 +6,7 @@ export const personalInfo = {
   title: "AI / ML • DATA SCIENCE • AGENTIC AI",
   roleHeadline: "I BUILD INTELLIGENT SYSTEMS.",
   summary:
-    "Final-year B.Tech CSE (Data Science) student at Bennett University with hands-on experience building and deploying full-stack ML systems — from data cleaning and model training through to production deployment with FastAPI, Docker, and AWS. Most recently designed and built a self-correcting agentic RAG pipeline, going beyond standard retrieval into agent orchestration, evaluation, and benchmarking. Currently pursuing the AWS Certified AI Practitioner certification.",
+    "Final-year B.Tech CSE (Data Science) student at Bennett University with hands-on experience building and deploying full-stack ML systems — from data cleaning and model training through to production deployment with FastAPI, Docker, and AWS. Most recently designed and built a self-correcting agentic RAG pipeline, going beyond standard retrieval into agent orchestration, evaluation, and benchmarking. Earned the AWS Certified AI Practitioner certification.",
   location: "Greater Noida, India",
   phone: "+91 8965000002",
   email: "rajvardhanrathore@icloud.com",
@@ -280,6 +280,6 @@ export const certifications: CertificationItem[] = [
   {
     title: "AWS Certified AI Practitioner",
     issuer: "Amazon Web Services",
-    inProgress: true
+    inProgress: false
   }
 ];
