@@ -252,6 +252,13 @@ export const education: EducationItem[] = [
 
 export const certifications: CertificationItem[] = [
   {
+    title: "AWS Certified AI Practitioner",
+    issuer: "Amazon Web Services",
+    inProgress: false,
+    badgeUrl: "/aws-ai-practitioner-badge.png",
+    verificationUrl: "https://www.credly.com/badges/f28a4d87-4588-44e3-8a13-c097b5d8392c/public_url"
+  },
+  {
     title: "Getting Started with Accelerated Computing in Modern CUDA C++",
     issuer: "NVIDIA",
     inProgress: false
@@ -276,12 +283,5 @@ export const certifications: CertificationItem[] = [
     issuer: "Pregrad",
     period: "Jun–Sep 2024",
     inProgress: false
-  },
-  {
-    title: "AWS Certified AI Practitioner",
-    issuer: "Amazon Web Services",
-    inProgress: false,
-    badgeUrl: "/aws-ai-practitioner-badge.png",
-    verificationUrl: "https://www.credly.com/badges/f28a4d87-4588-44e3-8a13-c097b5d8392c/public_url"
   }
 ];
