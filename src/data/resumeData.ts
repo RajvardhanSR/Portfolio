@@ -280,6 +280,8 @@ export const certifications: CertificationItem[] = [
   {
     title: "AWS Certified AI Practitioner",
     issuer: "Amazon Web Services",
-    inProgress: false
+    inProgress: false,
+    badgeUrl: "/aws-ai-practitioner-badge.png",
+    verificationUrl: "https://www.credly.com/badges/f28a4d87-4588-44e3-8a13-c097b5d8392c/public_url"
   }
 ];

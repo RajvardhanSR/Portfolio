@@ -50,4 +50,6 @@ export interface CertificationItem {
   issuer?: string;
   period?: string;
   inProgress?: boolean;
+  badgeUrl?: string;
+  verificationUrl?: string;
 }

@@ -98,7 +98,7 @@ $$\text{RAW DATA} \to \text{CLEANING} \to \text{EDA} \to \text{FEATURES} \to \te
 - **Machine Learning Using Python** — Infosys Springboard
 - **Time Series Analysis using Python** — Infosys Springboard
 - **Data Science & Analytics Mentorship Program** — Pregrad *(Jun–Sep 2024)*
-- **AWS Certified AI Practitioner** — Amazon Web Services
+- **AWS Certified AI Practitioner** — Amazon Web Services ([Verify on Credly](https://www.credly.com/badges/f28a4d87-4588-44e3-8a13-c097b5d8392c/public_url))
 
 ---
 

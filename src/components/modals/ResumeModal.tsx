@@ -216,6 +216,16 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                   ) : (
                     <span>
                       {c.title} {c.issuer ? `— ${c.issuer}` : ''} {c.period ? `(${c.period})` : ''}
+                      {c.verificationUrl && (
+                        <a
+                          href={c.verificationUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ml-2 text-sky-400 hover:text-sky-300 hover:underline print:hidden inline-flex items-center space-x-0.5 text-[11px] font-mono"
+                        >
+                          <span>[Verify Credly ↗]</span>
+                        </a>
+                      )}
                     </span>
                   )}
                 </li>
